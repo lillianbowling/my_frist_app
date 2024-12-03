@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 
 st.title("Chloe's Penguins")
+st.write("I hate penguins")
 st.markdown("Use this Streamlit app to make your own scatterplot about penguins!")
 
 penguins_df = pd.read_csv('penguins.csv')
